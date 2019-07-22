@@ -8,6 +8,8 @@ namespace My {
 }
 
 int main(int argc, char** argv) {
+
+	printf("Hello Engine 22!\n");
 	int ret;
 
 	if ((ret = g_pApp->Initialize()) != 0) {
